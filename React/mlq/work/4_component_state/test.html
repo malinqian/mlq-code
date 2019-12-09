@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>
+    <script src="https://cdn.staticfile.org/react/15.4.2/react.min.js"></script>
+
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    /*
+    自定义组件
+    1、显示h2标题，初始文本：你喜欢我
+    2、点击标题更新：我喜欢你
+     */
+   class Like extends React.Component{
+       constructor(props) {
+           super(props)
+           this.state={
+               isLike:false
+           }
+           //将新增方法中的this绑定组件对象
+           this.handleClick=this.handleClick.bind(this)
+       }
+
+       //新添加方法：内部this默认不是组件对象，而是undefined
+       handleClick(){
+           //得到原有状态,并取反
+           const isLike=!this.state.isLike
+           //更新状态
+           this.setState({isLike})
+       }
+
+       //重写组件类方法
+       render(){
+           //读取状态
+           // const isLike=this.state.isLike;
+           const {isLike}=this.state
+           return(
+               <h2 onClick={this.handleClick}>{isLike?'你喜欢我':'我喜欢你'}</h2>
+           );
+       }
+   }
+   ReactDOM.render(<Like />,document.getElementById('example'))
+</script>
+</body>
+</html>

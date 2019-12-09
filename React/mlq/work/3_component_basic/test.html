@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>
+    <script src="https://cdn.staticfile.org/react/15.4.2/react.min.js"></script>
+</head>
+<body>
+<div id="example1"></div>
+<div id="example2"></div>
+<script type="text/babel">
+    /*
+    组件化编程
+     */
+    //1、定义组件
+    /*1、工厂函数组件(没有状态的组件)*/
+    function MyComponent1() {
+        return(
+            <h2>工厂函数组件</h2>
+        );
+    }
+    /*2、ES6类组件(复杂组件)*/
+    class MyComponent2 extends React.Component{
+        render(){
+            return(
+                <h2>ES6类组件(复杂组件)</h2>
+            );
+        }
+    }
+    //2、渲染组件标签
+    ReactDOM.render(
+        <MyComponent1/>,
+        document.getElementById('example1')
+    )
+    ReactDOM.render(
+        <MyComponent2/>,
+        document.getElementById('example2')
+    )
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>前端JS框架列表</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>
+    <script src="https://cdn.staticfile.org/react/15.4.2/react.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    /*
+    动态展示数据
+     */
+    /*
+    如何将一个数据的数组转化为标签的数组
+    使用数组的map()
+    /*
+    <ul>
+    <li>{name}</li>
+    </ul>
+     */
+    const names=['jQuery','zepto','angular','react','vue']
+    const ul=(
+        <ul>
+            {
+                names.map((name,index)=><li key={index}>{name}</li>)
+            }
+        </ul>
+    )
+    ReactDOM.render(ul,document.getElementById("example"))
+</script>
+</body>
+</html>

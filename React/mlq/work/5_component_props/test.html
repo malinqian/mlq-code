@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>
+    <script src="https://cdn.staticfile.org/react/15.4.2/react.min.js"></script>
+
+</head>
+<body>
+<div id="example"></div>
+<div id="example2"></div>
+<script type="text/babel">
+    /*
+    自定义同来显示一个人的信息的组件
+    1、姓名必须指定
+    2、如果性别没有指定，默认为男
+    3、如果年龄没有指定，默认为18
+     */
+    /*function Person(props){
+        return(
+            <ul>
+                <li>姓名：{props.name}</li>
+                <li>性别：{props.sex}</li>
+                <li>年龄：{props.age}</li>
+            </ul>
+        );
+    }*/
+    class Person extends React.Component{
+        render(){
+            return(
+                <ul>
+                    <li>姓名：{this.props.name}</li>
+                    <li>性别：{this.props.sex}</li>
+                    <li>年龄：{this.props.age}</li>
+                </ul>
+            );
+        }
+    }
+    //指定默认属性
+    Person.defaultProps={
+        sex:'男',
+        age:18
+    }
+    //对props中属性进行限制与必要性限制
+    Person.propTypes={
+        name:PropTypes.string.isRequired,
+        age:PropTypes.number
+    }
+    const p1={
+        name:'Tom',
+        age:18,
+        sex:'男'
+    }
+    /*
+    ...的作用
+    1、打包
+    function fn(...as){}   fn(1,2,3)
+    2、解包
+    const arr1=[1,2,3]  const arr2=[6,...arr1,9]
+    arr2=[6,1,2,3,9]
+     */
+    //ReactDOM.render(<Person name={p1.name} age={p1.age} sex={p1.sex}/>,document.getElementById('example'))
+    ReactDOM.render(<Person {...p1}/>, document.getElementById('example'))
+    // ReactDOM.render(<Person name="Jack"/>,document.getElementById('example2'))
+</script>
+</body>
+</html>

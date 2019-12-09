@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9a1995f-7307-44c6-8525-ce02610e8fe1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1UXuuuPZHYnTFl2ckASLrhokQnK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learning_react/mlq-app" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maqian\Downloads\HTML\mlq\work\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/mlq/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.main.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a1995f-7307-44c6-8525-ce02610e8fe1" name="Default Changelist" comment="" />
+      <created>1575515486182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575515486182</updated>
+      <workItem from="1575515487356" duration="5289000" />
+      <workItem from="1575536148144" duration="16789000" />
+      <workItem from="1575646609141" duration="1803000" />
+      <workItem from="1575794355727" duration="14000" />
+      <workItem from="1575794385038" duration="9605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575515561398">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="390" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1575515561398" />
+    <state x="430" y="143" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1575538199937">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="430" y="143" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1280.720@0.0.1280.720" timestamp="1575538199937" />
+    <state x="481" y="118" key="FileChooserDialogImpl" timestamp="1575817559367">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="481" y="118" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1575817559367" />
+    <state x="201" y="5" key="SettingsEditor" timestamp="1575539242228">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="201" y="5" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1575539242228" />
+    <state x="623" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1575551665901">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="623" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1575551665901" />
+  </component>
+</project>
