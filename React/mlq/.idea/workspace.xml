@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learning_react/mlq-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +75,8 @@
       <workItem from="1575646609141" duration="1803000" />
       <workItem from="1575794355727" duration="14000" />
       <workItem from="1575794385038" duration="9605000" />
+      <workItem from="1575871732196" duration="166000" />
+      <workItem from="1575946684319" duration="4917000" />
     </task>
     <servers />
   </component>
